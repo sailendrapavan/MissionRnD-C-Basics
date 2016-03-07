@@ -23,23 +23,23 @@ int main(){
 	
 	//Test Sum of numbers
 	
-	int sumTemp = sum(4, 3);
+	/*int sumTemp = sum(1, 123);
 	printf("%d\n", sumTemp);
 	
 	//Test Count file
 	
-	int countTemp = count(5, 20);
-	printf("%d\n", countTemp);
+	int countTemp = count(3, 15);
+	printf("%d\n", countTemp);*/
 
 
-	//Test Swap
+/*	//Test Swap
 	int a = 5, b = 7;
 	swap(&a, &b);
 	printf("%d %d\n", a, b);
-
+	*/
 	//Is Older 
-	char date1[20] = "29-02-2004";
-	char date2[20] = "29-02-2000";
+	char date1[20] = "15-07-1992";
+	char date2[20] = "15-07-2000";
 	int check=isOlder(date1, date2);
 	if (check == 0){
 		printf("Both are of same age \n");
@@ -48,10 +48,10 @@ int main(){
 		printf("%d person is Older \n", check);
 	}
 
-	//Variable Arguments
+	/*//Variable Arguments
 	int total = variableArguments(3, 20, 90, 98);
 	printf("There are %d students greater than 90\n", total);
-	
+	*/
 	
 	return 0;
 }
