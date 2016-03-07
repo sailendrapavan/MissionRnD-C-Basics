@@ -15,7 +15,21 @@ ERROR CASES:
 NOTES: 		use stdarg.h header.
 */
 
-int variableArguments(int arg_count, ...)
+int variableArguments(int arg_count,...)
 {
-	return 0;
+	
+	va_list p;
+	
+	int c=0;
+	va_start(p, arg_count);
+	for (int i = 0; i <arg_count; i++)
+	{
+		if (va_arg(p, int) > 90)
+		{
+			c++;
+		}
+    }
+	 va_end(p);
+
+	return c;
 }

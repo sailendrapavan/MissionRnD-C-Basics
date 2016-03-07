@@ -9,7 +9,7 @@ INPUTS: 	DOBs of two persons as parameters in the format "DD-MM-YYYY".
 OUTPUT: 	1 if person one is elder, 2 if person two is elder, 0 if both are of same age.
 
 ERROR CASES: Return -1 if any DOB is invalid.
-
+ 
 NOTES: 		Don't use any built-in C functions for comparisions. You are free to write any helper functions.
 */
 
